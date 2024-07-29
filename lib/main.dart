@@ -79,16 +79,17 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Column(
-          
-          mainAxisAlignment: MainAxisAlignment.center,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.baseline,
           children: <Widget>[
-            // const Text(
+            Container(color: Colors.deepPurple, width: 100, height: 100),
+            Container(color: Colors.blueAccent, width: 100, height: 100),
+            Container(color: const Color.fromARGB(255, 196, 113, 6), width: 100, height: 100),
+            Container(color: const Color.fromARGB(255, 139, 10, 107), width: 100, height: 100),
+            Container(color: const Color.fromARGB(255, 6, 129, 22), width: 100, height: 100),
+            // const Text( 
             //   'Counter 1:',
-            // ),
-            // Text(
-            //   '$_counter',
-            //   style: Theme.of(context).textTheme.headlineMedium,
             // ),
             // const Text(
             //   'Counter 2:',
@@ -104,11 +105,12 @@ class _MyHomePageState extends State<MyHomePage> {
             //   onPressed: () => _selectDate(context),
             //    tooltip: 'Select Date',
             //     child: const Icon(Icons.calendar_today)),
-            SizedBox(
-              width: 150,
-              height: 150,
-              child: Image.asset("assets/images/3.jpg"),
-            )
+            // SizedBox(
+            //   width: 150,
+            //   height: 150,
+            //   child: Image.asset("assets/images/3.jpg"),
+            // )
+          
           ],
         ),
       ),
