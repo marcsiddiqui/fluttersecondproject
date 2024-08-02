@@ -81,13 +81,82 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.baseline,
+          // crossAxisAlignment: CrossAxisAlignment.baseline,
           children: <Widget>[
-            Container(color: Colors.deepPurple, width: 100, height: 100),
-            Container(color: Colors.blueAccent, width: 100, height: 100),
-            Container(color: const Color.fromARGB(255, 196, 113, 6), width: 100, height: 100),
-            Container(color: const Color.fromARGB(255, 139, 10, 107), width: 100, height: 100),
-            Container(color: const Color.fromARGB(255, 6, 129, 22), width: 100, height: 100),
+            Container(
+              color: const Color.fromARGB(255, 196, 113, 6),
+              width: 100,
+              height: 100,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+               crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[
+                  SizedBox(
+                    width: 50,
+                    height: 50,
+                    child: Image.asset("assets/images/3.jpg"),
+                  ),
+                  Text(
+                    'Test',
+                    textDirection: TextDirection.ltr,
+                    style: TextStyle(
+                      fontSize: 15,
+                      color: Colors.black87,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              color: const Color.fromARGB(255, 196, 113, 6),
+              width: 100,
+              height: 100,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+               crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[
+                  SizedBox(
+                    width: 50,
+                    height: 50,
+                    child: Image.asset("assets/images/3.jpg"),
+                  ),
+                  Text(
+                    'Test',
+                    textDirection: TextDirection.ltr,
+                    style: TextStyle(
+                      fontSize: 15,
+                      color: Colors.black87,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              color: const Color.fromARGB(255, 196, 113, 6),
+              width: 100,
+              height: 100,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+               crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[
+                  SizedBox(
+                    width: 50,
+                    height: 50,
+                    child: Image.asset("assets/images/3.jpg"),
+                  ),
+                  Text(
+                    'Test',
+                    textDirection: TextDirection.ltr,
+                    style: TextStyle(
+                      fontSize: 15,
+                      color: Colors.black87,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+
+
             // const Text( 
             //   'Counter 1:',
             // ),
