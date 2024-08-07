@@ -86,139 +86,14 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
               Container(
                 color: const Color.fromARGB(255, 196, 113, 6),
-                width: 100,
+                width: 400,
                 height: 100,
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                crossAxisAlignment: CrossAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
-                    SizedBox(
-                      width: 50,
-                      height: 50,
-                      child: Image.asset("assets/images/3.jpg"),
-                    ),
                     Text(
-                      'Test',
-                      textDirection: TextDirection.ltr,
-                      style: TextStyle(
-                        fontSize: 15,
-                        color: Colors.black87,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Container(
-                color: const Color.fromARGB(255, 196, 255, 6),
-                width: 100,
-                height: 100,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                  children: <Widget>[
-                    SizedBox(
-                      width: 50,
-                      height: 50,
-                      child: Image.asset("assets/images/3.jpg"),
-                    ),
-                    Text(
-                      'Test',
-                      textDirection: TextDirection.ltr,
-                      style: TextStyle(
-                        fontSize: 15,
-                        color: Colors.black87,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Container(
-                color: const Color.fromARGB(255, 255, 113, 6),
-                width: 100,
-                height: 100,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                  children: <Widget>[
-                    SizedBox(
-                      width: 50,
-                      height: 50,
-                      child: Image.asset("assets/images/3.jpg"),
-                    ),
-                    Text(
-                      'Test',
-                      textDirection: TextDirection.ltr,
-                      style: TextStyle(
-                        fontSize: 15,
-                        color: Colors.black87,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Container(
-                color: const Color.fromARGB(255, 0, 113, 6),
-                width: 100,
-                height: 100,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                  children: <Widget>[
-                    SizedBox(
-                      width: 50,
-                      height: 50,
-                      child: Image.asset("assets/images/3.jpg"),
-                    ),
-                    Text(
-                      'Test',
-                      textDirection: TextDirection.ltr,
-                      style: TextStyle(
-                        fontSize: 15,
-                        color: Colors.black87,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Container(
-                color: const Color.fromARGB(0, 196, 113, 6),
-                width: 100,
-                height: 100,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                  children: <Widget>[
-                    SizedBox(
-                      width: 50,
-                      height: 50,
-                      child: Image.asset("assets/images/3.jpg"),
-                    ),
-                    Text(
-                      'Test',
-                      textDirection: TextDirection.ltr,
-                      style: TextStyle(
-                        fontSize: 15,
-                        color: Colors.black87,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Container(
-                color: const Color.fromARGB(255, 196, 0, 6),
-                width: 100,
-                height: 100,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                  children: <Widget>[
-                    SizedBox(
-                      width: 50,
-                      height: 50,
-                      child: Image.asset("assets/images/3.jpg"),
-                    ),
-                    Text(
-                      'Test',
+                      'Row 1',
                       textDirection: TextDirection.ltr,
                       style: TextStyle(
                         fontSize: 15,
@@ -230,19 +105,14 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Container(
                 color: const Color.fromARGB(255, 196, 113, 6),
-                width: 100,
+                width: 400,
                 height: 100,
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                crossAxisAlignment: CrossAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
-                    SizedBox(
-                      width: 50,
-                      height: 50,
-                      child: Image.asset("assets/images/3.jpg"),
-                    ),
                     Text(
-                      'Test',
+                      'Row 2',
                       textDirection: TextDirection.ltr,
                       style: TextStyle(
                         fontSize: 15,
@@ -252,30 +122,142 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
               ),
-
-              // const Text( 
-              //   'Counter 1:',
-              // ),
-              // const Text(
-              //   'Counter 2:',
-              // ),
-              // Text(
-              //   '$_counter',
-              //   style: Theme.of(context).textTheme.headlineMedium,
-              // ),
-              // FloatingActionButton(onPressed: _incrementDate, tooltip: 'Increase Date', child: const Icon(Icons.arrow_outward)),
-              // FloatingActionButton(onPressed: _incrementDateByWeek, tooltip: 'Increase Date by Week', child: const Icon(Icons.arrow_downward)),
-              // FloatingActionButton(onPressed: _decrementCounter, tooltip: 'Decrement', child: const Icon(Icons.arrow_back)),
-              // FloatingActionButton(
-              //   onPressed: () => _selectDate(context),
-              //    tooltip: 'Select Date',
-              //     child: const Icon(Icons.calendar_today)),
-              // SizedBox(
-              //   width: 150,
-              //   height: 150,
-              //   child: Image.asset("assets/images/3.jpg"),
-              // )
-            
+              Container(
+                color: const Color.fromARGB(255, 196, 113, 6),
+                width: 400,
+                height: 100,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Container(
+                      color: const Color.fromARGB(255, 196, 113, 6),
+                      width: 200,
+                      height: 100,
+                      child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          Text(
+                            'Row 3 Col 1',
+                            textDirection: TextDirection.ltr,
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Colors.black87,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      color: const Color.fromARGB(255, 196, 113, 6),
+                      width: 200,
+                      height: 100,
+                      child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          Text(
+                            'Row 3 Col 2',
+                            textDirection: TextDirection.ltr,
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Colors.black87,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                color: const Color.fromARGB(255, 196, 113, 6),
+                width: 400,
+                height: 100,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Container(
+                      color: const Color.fromARGB(255, 196, 113, 6),
+                      width: 133,
+                      height: 100,
+                      child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          Text(
+                            'Row 4 Col 1',
+                            textDirection: TextDirection.ltr,
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Colors.black87,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      color: const Color.fromARGB(255, 196, 113, 6),
+                      width: 133,
+                      height: 100,
+                      child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          Text(
+                            'Row 4 Col 2',
+                            textDirection: TextDirection.ltr,
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Colors.black87,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      color: const Color.fromARGB(255, 196, 113, 6),
+                      width: 133,
+                      height: 100,
+                      child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          Text(
+                            'Row 4 Col 3',
+                            textDirection: TextDirection.ltr,
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Colors.black87,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                color: const Color.fromARGB(255, 196, 113, 6),
+                width: 400,
+                height: 100,
+                child: const Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Text(
+                      'Row 5',
+                      textDirection: TextDirection.ltr,
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: Colors.black87,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         )
